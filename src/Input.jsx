@@ -55,7 +55,7 @@ function Input(){
       <div className="h1 text-center"><h1>Todo App</h1></div>
       
        <div className="input-box">
-        <input type="text" value={inputValue} onChange={newItem}  />
+        <input type="text" value={inputValue} onChange={newItem}  required/>
       <button type="button" class="btn btn-primary btn-lg"  onClick={createItem} >Submit</button>
       </div>
       <div className="list-box">
