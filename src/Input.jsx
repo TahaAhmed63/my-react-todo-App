@@ -4,27 +4,6 @@ import "./style.css";
 import {BiX} from "react-icons/bi";
 
 
-// function Input() {
-// const [items,setValue]=useState([]);
-// const[inputValue,setInputValue]=useState('');
-
-// function createItem(){
-//   if (inputValue.trim() !== '') { 
-//   const newItem=[...items,inputValue];
-
-//   setValue(newItem);
-//   setInputValue('');
-// }
-// }
-// function remove(index){
-//   const newItems = [...items];
-//   newItems.splice(index, 1);
-//   setValue(newItems);
- 
-// }
-// function newItem(event){
-//   setInputValue(event.target.value);
-// }
 function Input(){
   function scrollToBottom() {
     box.scrollTop = box.scrollHeight;
